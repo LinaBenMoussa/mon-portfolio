@@ -53,19 +53,6 @@ const Projects = () => {
       date: "2024-06",
       category: "Full Stack",
     },
-    {
-      id: 3,
-      title: "Weather Dashboard",
-      description:
-        "A responsive weather dashboard with location-based forecasts, interactive maps, and data visualization charts.",
-      technologies: ["React", "D3.js", "OpenWeather API", "Leaflet"],
-      videoUrl:
-        "https://sample-videos.com/zip/10/mp4/480/SampleVideo_1280x720_5mb.mp4", // Replace with your video
-      githubUrl: "https://github.com/LinaBenMoussa/weather-dashboard",
-      liveUrl: "https://your-weather-demo.com",
-      date: "2024-06",
-      category: "Frontend",
-    },
   ];
 
   // Load video metadata when component mounts
