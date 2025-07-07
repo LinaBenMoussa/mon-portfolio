@@ -6,7 +6,6 @@ import react from "../assets/icon/react.png";
 import angular from "../assets/icon/angular.png";
 import net from "../assets/icon/net.png";
 import spring from "../assets/icon/springboot.png";
-import Navbar from './Navbar';
 const Accueil = () => {
   const skills = [
     { name: 'React', icon: react, color: 'text-blue-400' },

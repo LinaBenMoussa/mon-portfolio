@@ -1,6 +1,8 @@
 import { Award, Download, Mail, MapPin, Phone } from "lucide-react";
 import { useState } from "react";
 import myImage from '../assets/img/Design sans titre-Photoroom.png' ;
+import cv from '../assets/file/CV Lina BEN MOUSSA.pdf'
+
 const About = () => {
   const [activeTab, setActiveTab] = useState('story');
 
@@ -11,6 +13,12 @@ const About = () => {
     email: 'linabenmoussa255@gmail.com',
     phone: '+216 50 488 680',
   };
+  const downloadCV = () => {
+      const link = document.createElement('a');
+      link.href = cv;
+      link.download = 'CV Lina BEN MOUSSA.pdf';
+      link.click();
+    };
 
   const tabContent = {
     story: {
@@ -189,7 +197,7 @@ const About = () => {
 
               
 
-              <button className="w-full mt-6 px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold rounded-xl hover:from-purple-600 hover:to-pink-600 transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2">
+              <button onClick={() => downloadCV()} className="w-full mt-6 px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold rounded-xl hover:from-purple-600 hover:to-pink-600 transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2">
                 <Download size={20} />
                 Download CV
               </button>
