@@ -9,7 +9,7 @@ import Certifications from './components/Certification';
 
 function App() {
   return (
-    <section className="relative min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 overflow-hidden">
+    <section className="relative min-h-screen bg-gradient-to-br from-teal-950 via-sky-900 to-cyan-950 overflow-hidden">
 
       <Navbar />
       <section id="home" className='mt-20 mb-16 ml-20 mr-20'><Accueil /></section>
