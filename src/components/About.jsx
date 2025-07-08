@@ -22,27 +22,28 @@ const About = () => {
 
   const tabContent = {
     story: {
-      title: 'My Story',
-      content: (
-        <div className="space-y-6">
-          <p className="text-white/70 leading-relaxed">
-            I'm a passionate Software Engineer with over 3 years of experience in full-stack development. 
-            My journey began with a curiosity about how digital products work, which led me to pursue 
-            computer science and develop expertise in modern web technologies.
-          </p>
-          <p className="text-white/70 leading-relaxed">
-            I specialize in building scalable web applications using React, Angular, Spring Boot, and .NET. 
-            My approach combines technical excellence with user-centered design, ensuring that every project 
-            I work on delivers both functionality and exceptional user experience.
-          </p>
-          <p className="text-white/70 leading-relaxed">
-            When I'm not coding, I enjoy exploring new technologies, contributing to open-source projects, 
-            and sharing knowledge with the developer community. I believe in continuous learning and 
-            staying updated with the latest industry trends.
-          </p>
-        </div>
-      )
-    },
+  title: 'My Story',
+  content: (
+    <div className="space-y-6">
+      <p className="text-white/70 leading-relaxed">
+        I'm a passionate Software Engineer with a strong interest in full-stack development. 
+        My journey began with a curiosity about how digital products work, which led me to pursue 
+        computer science and develop expertise in modern web technologies.
+      </p>
+      <p className="text-white/70 leading-relaxed">
+        I specialize in building scalable web applications using React, Angular, Spring Boot, and .NET. 
+        My approach combines technical excellence with user-centered design, ensuring that every project 
+        I work on delivers both functionality and exceptional user experience.
+      </p>
+      <p className="text-white/70 leading-relaxed">
+        When I'm not coding, I enjoy exploring new technologies, contributing to open-source projects, 
+        and sharing knowledge with the developer community. I believe in continuous learning and 
+        staying updated with the latest industry trends.
+      </p>
+    </div>
+  )
+}
+,
     experience: {
   title: 'Experience',
   content: (
@@ -112,15 +113,15 @@ const About = () => {
           <Award className="w-8 h-8 text-yellow-400" />
           <div>
             <h3 className="text-xl font-semibold text-white">
-              Diplôme d'Ingénieur en Génie Informatique
+              Engineering Degree in Computer Science
             </h3>
             <p className="text-white/60">
-              Institut International de Technologie • 2022–2025
+              International Institute of Technology • 2022–2025
             </p>
           </div>
         </div>
         <p className="text-white/70">
-          Formation axée sur le développement logiciel, l’architecture des systèmes, et l’intelligence artificielle.
+          Program focused on software development, system architecture, and artificial intelligence.
         </p>
       </div>
 
@@ -129,21 +130,21 @@ const About = () => {
           <Award className="w-8 h-8 text-blue-400" />
           <div>
             <h3 className="text-xl font-semibold text-white">
-              Cycle Préparatoire en Physique-Chimie
+              Preparatory Cycle in Physics and Chemistry
             </h3>
             <p className="text-white/60">
-              Institut International de Technologie • 2020–2022
+              Faculty of Sciences of Sfax • 2020–2022
             </p>
           </div>
         </div>
         <p className="text-white/70">
-          Base solide en mathématiques, physique et chimie, avec une orientation vers les études d’ingénieur.
+          Solid foundation in mathematics, physics, and chemistry with a focus on engineering studies.
         </p>
       </div>
-
     </div>
   )
 }
+
   };
   return (
     
