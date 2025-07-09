@@ -1,7 +1,7 @@
 import { Award, Download, Mail, MapPin, Phone } from "lucide-react";
 import { useState } from "react";
 import myImage from '../assets/img/Design sans titre-Photoroom.png' ;
-import cv from '../assets/file/CV Lina BEN MOUSSA.pdf'
+import cv from '../assets/file/cv Lina BEN MOUSSA.pdf'
 
 const About = () => {
   const [activeTab, setActiveTab] = useState('story');

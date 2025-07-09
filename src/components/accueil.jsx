@@ -1,7 +1,7 @@
 import React from 'react';
-import { ChevronDown, Download, Eye, Github, Linkedin, Mail, Code, Zap } from 'lucide-react';
+import { Download, Eye, Github, Linkedin, Mail, Code, Zap } from 'lucide-react';
 import myImage from '../assets/img/Design sans titre-Photoroom.png' ;
-import cv from '../assets/file/CV Lina BEN MOUSSA.pdf'
+import cv from '../assets/file/cv Lina BEN MOUSSA.pdf'
 import react from "../assets/icon/react.png";
 import angular from "../assets/icon/angular.png";
 import net from "../assets/icon/net.png";
