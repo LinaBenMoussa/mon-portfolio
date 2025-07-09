@@ -131,7 +131,7 @@ const Projects = () => {
   };
 
   return (
-    <section className="min-h-screen py-20 px-4 sm:px-6 lg:px-8">
+    <section className="min-h-screen  px-4 sm:px-6 lg:px-8">
       {/* Background Elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-10 w-72 h-72 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl opacity-10 animate-pulse"></div>
