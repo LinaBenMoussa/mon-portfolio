@@ -33,10 +33,10 @@ const Accueil = () => {
       <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between px-6 lg:px-16 py-12 lg:py-20">
         {/* Profile Image */}
         <div className="relative mb-12 lg:mb-0">
-          <div className="relative w-80 h-80 mx-auto lg:mx-0">
+          <div className="relative w-72 h-72 mx-auto lg:mx-0">
             {/* Simple image placeholder */}
             <div className="w-full h-full bg-gradient-to-br from-purple-500/20 to-pink-500/20 rounded-2xl backdrop-blur-sm border border-white/10 flex items-center justify-center">
-              <img src={myImage} className='w-full h-full'></img>
+              <img src={myImage} className='w-72 h-72'></img>
             </div>
             
             {/* Floating Elements */}
